@@ -92,16 +92,10 @@ public class MainActivity extends AppCompatActivity {
         if (uri == null) {
             Log.e("upload file", uri.toString());
         }
-//
-//        if (imageRef == null) {
-//            FirebaseStorage storageRef = FirebaseStorage.getInstance("gs://uploada-fca84.appspot.com/");
-//            imageRef = storageRef.getReference();
-//        }
 
         if (imageSelected) {
             StorageReference uploadRef = imageRef.child(uri.getLastPathSegment());
             UploadTask uploadTask = uploadRef.putFile(uri);
-            Log.e("upload", "started");
             Toast.makeText(this, "Uploading...", Toast.LENGTH_SHORT).show();
             uploadTask
                     .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
@@ -131,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
                 if (uri != null) {
                     imageSelected = true;
                 }
-                Log.e("imageSelected", String.valueOf(imageSelected));
             }
         }
     }
