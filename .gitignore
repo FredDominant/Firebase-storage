@@ -10,3 +10,22 @@
 
 .idea/instapk.xml
 instapk.log*
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+proguard/
+*.log
+.navigation/
+captures/
+.idea/
+
+freeline.py
+freeline/
+freeline_project_description.json
