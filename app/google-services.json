@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "594911743126",
+    "firebase_url": "https://uploada-fca84.firebaseio.com",
+    "project_id": "uploada-fca84",
+    "storage_bucket": "uploada-fca84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594911743126:android:1b7829f2ac180d28",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594911743126-vq5llvrqm1r881pddo1s8u4cpsg7b8fp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "594911743126-vq5llvrqm1r881pddo1s8u4cpsg7b8fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA05codJCZI6M7lY_Zzf1K494LXdlnyr28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
